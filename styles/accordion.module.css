@@ -1,0 +1,33 @@
+.container{
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.accordion{
+    width:400px;
+    height:1000px;
+    margin-bottom:5px;
+    overflow:hidden;
+}
+
+.accordionTrigger{
+    background-color:#000;
+    color:#fff;
+    margin:0;
+    font-size: 1.1rem;
+    padding: 10px;
+    display:block;
+}
+
+.accordionContent{
+    background-color:#fff;
+    color:#000;
+    border:1px solid #000;
+    margin:0;
+    font-size: 1.1rem;
+    padding:10px;
+}
